@@ -1,0 +1,3 @@
+# Unhandled Exception in Dart Asynchronous Operation
+
+This repository demonstrates a common error in Dart: failing to properly handle exceptions within asynchronous operations.  The `bug.dart` file showcases the issue, where an exception during a network request isn't caught or handled correctly, leading to potential crashes.  The solution, found in `bugSolution.dart`, shows the recommended approach to handle such exceptions gracefully and prevent app termination.
